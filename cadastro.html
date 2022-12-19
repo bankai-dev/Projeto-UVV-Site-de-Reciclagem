@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA_Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link href="cadastro.css" rel="stylesheet" type="text/css"/>
+  <title>cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/undraw_blooming_re_2kc4.svg">
+        </div>
+        <!--Formulário-->
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <!--Título-->
+                    <div class="title">
+                        <h1>CADASTRE-SE</h1>
+                    </div>
+                    <!--Botão de login-->
+                    <div class="voltar-button">
+                        <button><a href="index.html">VOLTAR</a></button>
+                    </div>
+                </div>
+                <!--Campos-->
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome completo</label>
+                        <input id="name" type="text" name="name" placeholder="Nome completo">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="name">Endereço</label>
+                        <input id="endereco" type="text" name="endereco" placeholder="Seu endereço">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="name">Data</label>
+                        <input id="data" type="text" name="data" placeholder="Data atual">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="name">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Seu email">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="name">Celular</label>
+                        <input id="telefone" type="tel" name="data" placeholder="Numero de telefone">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmpassword">Confirmar senha</label>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha">
+                    </div>
+                </div>
+                <!--Fim Campos-->
+                <!-------------->
+                <!--Checkbox-->
+                <div class="gender-inputs">
+                    <!--Título-->
+                    <div class="gender-title">
+                        <h6>Gêneros</h6>
+                    </div>
+
+                    <div class="gender-group">
+                       <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                       </div> 
+
+                       <div class="gender-input">
+                          <input type="radio" id="male" name="gender">
+                          <label for="male">Masculino</label>
+                        </div> 
+
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Outros</label>
+                        </div> 
+
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim Checkbox-->
+                <!---------------->
+                <!--Botão de continuar-->
+                <div class="continue-button">
+                    <button><a href="agradecimento.html">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
